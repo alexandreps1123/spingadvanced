@@ -1,8 +1,8 @@
 package com.parkus;
 
 /**
- * Hello world!
- *
+ * AutoWiring process of the spring container automatically
+ * injecting the object types.
  */
 public class App 
 {
