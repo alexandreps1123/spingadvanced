@@ -13,6 +13,9 @@
     <bean class="com.parkus.autowiring.annotations.Address" 
         name="address" p:hno="123" p:street="ORA ORA" p:city="sera sera" />
 
+    <bean class="com.parkus.autowiring.annotations.Address" 
+        name="address2" p:hno="567" p:street="ORA ORA" p:city="sera sera" />
+
     <bean class="com.parkus.autowiring.annotations.Employee" 
         name="employee"/>
 </beans>
