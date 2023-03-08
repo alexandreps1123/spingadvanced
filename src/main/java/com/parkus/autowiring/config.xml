@@ -18,5 +18,5 @@
         name="employee" autowire="byType"/> -->
 
     <bean class="com.parkus.autowiring.Employee" 
-        name="employee" autowire="byName"/>
+        name="employee" autowire="constructor"/>
 </beans>

@@ -2,26 +2,14 @@ package com.parkus.autowiring;
 
 public class Employee {
 
-    private int id;
     private Address address;
 
     public Employee() {
     }
 
-    public Employee(int id, Address address) 
+    public Employee(Address address) 
     {
-        this.id = id;
         this.address = address;
-    }
-
-    public int getId() 
-    {
-        return id;
-    }
-
-    public void setId(int id) 
-    {
-        this.id = id;
     }
 
     public Address getAddress() 
@@ -37,7 +25,7 @@ public class Employee {
     @Override
     public String toString() 
     {
-        return "Employee [id=" + id + ", address=" + address + "]";
+        return "Employee [address=" + address + "]";
     }
 
     
